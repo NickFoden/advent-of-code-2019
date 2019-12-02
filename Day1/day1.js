@@ -1,3 +1,5 @@
-const FuelCounterUpper = fuel => 2;
+const FuelCounterUpper = fuel => {
+    return Math.floor(fuel / 3) - 2
+};
 
 module.exports = FuelCounterUpper;

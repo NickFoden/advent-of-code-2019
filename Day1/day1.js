@@ -1,1 +1,3 @@
-export const FuelCounterUpper = fuel => 2;
+const FuelCounterUpper = fuel => 2;
+
+module.exports = FuelCounterUpper;

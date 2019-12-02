@@ -1,4 +1,4 @@
-import { FuelCounterUpper } from "./day1";
+const FuelCounterUpper = require("./day1");
 
 describe("Day 1", () => {
   test("Test works", () => {

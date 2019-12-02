@@ -22,6 +22,9 @@
   "jest": {
     "modulePathIgnorePatterns": [
       "package.json"
+    ],
+    "modulePaths": [
+      "<rootDir>"
     ]
   },
   "scripts": {

@@ -26,7 +26,7 @@ const findNounAndVerb = intsArray => {
       resultArray[1] = noun;
       resultArray[2] = verb;
       if (Intcode(resultArray) === 19690720) {
-        console.log("noun: " + noun + " verb: " + verb);
+        // console.log("noun: " + noun + " verb: " + verb);
         return Intcode(resultArray);
       }
     }

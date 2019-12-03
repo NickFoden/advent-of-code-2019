@@ -10,10 +10,10 @@ describe("Day 3 part 1", () => {
   test("First Test 2 wires", () => {
     expect(manhatDist(TEST_ONE_WIRE_ONE, TEST_ONE_WIRE_TWO)).toEqual(159);
   });
-  xtest("Second Test 2 wires", () => {
+  test("Second Test 2 wires", () => {
     expect(manhatDist(TEST_TWO_WIRE_ONE, TEST_TWO_WIRE_TWO)).toEqual(135);
   });
-  xtest("Solve part 1", () => {
-    expect(manhatDist(WIRE_ONE, WIRE_TWO)).toEqual(" ? ");
+  test("Solve part 1", () => {
+    expect(manhatDist(WIRE_ONE, WIRE_TWO)).toEqual(500);
   });
 });

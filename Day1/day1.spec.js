@@ -29,7 +29,7 @@ describe("Day 1", () => {
   test("For a mass of 100756, the fuel required is 33583.", () => {
     expect(FuelCounterUpper([100756])).toEqual(33583);
   });
-  xtest("To Solve the puzzel.", () => {
-    expect(FuelCounterUpper(DAY_1_FUEL)).toEqual("?");
+  test("To Solve the puzzel.", () => {
+    expect(FuelCounterUpper(DAY_1_FUEL)).toEqual(3087896);
   });
 });

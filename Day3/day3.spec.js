@@ -14,6 +14,6 @@ describe("Day 3 part 1", () => {
     expect(manhatDist(TEST_TWO_WIRE_ONE, TEST_TWO_WIRE_TWO)).toEqual(135);
   });
   test("Solve part 1", () => {
-    expect(manhatDist(WIRE_ONE, WIRE_TWO)).toEqual(500);
+    expect(manhatDist(WIRE_ONE, WIRE_TWO)).toEqual(2050);
   });
 });

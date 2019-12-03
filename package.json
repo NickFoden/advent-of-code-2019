@@ -1,17 +1,14 @@
 {
-  "name": "adventofcode",
+  "name": "advent-of-code-2019",
   "description": "Adevent of Code 2019 in Javascript.",
   "author": "Nick Foden",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/NickFoden/adventofcode.git"
+    "url": "https://github.com/NickFoden/advent-of-code-2019"
   },
   "scripts": {
-    "test": "jest --no-cache ./*",
-    "watch": "jest --watch ./*",
-    "lint": "eslint .",
-    "lint-test": "eslint . && jest --no-cache ./* "
+    "watch": "jest --watch ./*"
   },
   "license": "MIT",
   "dependencies": {},

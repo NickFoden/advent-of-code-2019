@@ -12,15 +12,28 @@ const secureContainer = () => {
 
 const isLegit = val => {
   let double = false;
+  let uniques = {};
   let valArray = val.toString().split("");
   for (let i = 0; i < valArray.length - 1; i++) {
-    if (valArray[i] === valArray[i + 1]) {
-      double = true;
-    }
     if (valArray[i] > valArray[i + 1]) {
       return false;
     }
   }
+
+  for (let i = 0; i < valArray.length - 1; i++) {
+    if (valArray[i] === valArray[i + 1]) {
+      uniques[valArray[i]]
+        ? (uniques[valArray[i]] = uniques[valArray[i]] + 1)
+        : (uniques[valArray[i]] = 1);
+    }
+  }
+
+  for (let item in uniques) {
+    if (uniques[item] === 1) {
+      double = true;
+    }
+  }
+
   return double ? true : false;
 };
 

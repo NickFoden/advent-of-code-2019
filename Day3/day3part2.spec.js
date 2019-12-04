@@ -13,7 +13,7 @@ describe("Day 3 part 2", () => {
   test("Second Test 2 wires", () => {
     expect(closestCross(TEST_TWO_WIRE_ONE, TEST_TWO_WIRE_TWO)).toEqual(410);
   });
-  test("Solve part 1", () => {
-    expect(closestCross(WIRE_ONE, WIRE_TWO)).toEqual(21666);
+  xtest("Solve part 1", () => {
+    expect(closestCross(WIRE_ONE, WIRE_TWO)).toEqual(0);
   });
 });

@@ -1,4 +1,4 @@
-const findNounAndVerb = require("./day2part2");
+const findNounAndVerb = require("./day2pt2");
 const PUZZLE_INPUT = require("./puzzleInput");
 
 describe("Day 2 part 2", () => {

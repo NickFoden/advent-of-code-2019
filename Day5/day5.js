@@ -29,9 +29,7 @@ const day5 = (intsArray, userInput = 1) => {
     } else if (oCode === 4) {
       result = getMemory(mode1, i + 1);
       i += 2;
-    } else {
-      i += 2;
-    }
+    } 
   }
   return result;
 };

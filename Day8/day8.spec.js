@@ -1,14 +1,12 @@
 const day8 = require("./day8");
 const DATA = require("./input");
-
-const TEST_DATA = [];
+const TEST_DATA = "123456789012";
 
 describe("Day 8", () => {
   test("test data", () => {
-    console.log(DATA);
-    expect(day8(TEST_DATA)).toEqual(42);
+    expect(day8(TEST_DATA, 3, 2)).toEqual(1);
   });
   xtest("Final test", () => {
-    expect(day8(DATA)).toBe("?");
+    expect(day8(DATA, 25, 6)).toBe("?");
   });
 });

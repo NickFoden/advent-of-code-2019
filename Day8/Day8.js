@@ -18,7 +18,7 @@ const day8 = (data, wide, tall) => {
       zeroResults[obj] += zeroCount.length;
     }
   }
-  let currentCount = wide
+  let currentCount = wide;
   let theLayerKey = "";
 
   for (let item in zeroResults) {

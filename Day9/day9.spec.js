@@ -3,7 +3,7 @@ const DATA = require("./input");
 
 const TEST_DATA = [];
 
-describe("Day 6", () => {
+describe("Day 9", () => {
   xtest("test data", () => {
     expect(day9(TEST_DATA)).toEqual(42);
   });

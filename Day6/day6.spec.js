@@ -20,6 +20,6 @@ describe("Day 6", () => {
     expect(day6(TEST_DATA)).toEqual(42);
   });
   xtest("Final test", () => {
-    expect(day6(DATA)).toEqual("answer");
+    expect(day6(DATA)).toBe("?");
   });
 });
